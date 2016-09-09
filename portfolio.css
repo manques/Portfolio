@@ -1,0 +1,258 @@
+body{
+	background-color:yellow;
+	color:black;
+}
+*{
+	margin:0px;
+	padding:0px;
+	/*border:1px solid black;*/
+	box-sizing: border-box;
+	border-collapse: collapse;
+	/*border-radius: 50%;*/
+	border: none;
+
+}
+a:hover,a:active,a:visited,a:link{
+  text-decoration: none;
+  color:white;
+}
+.total{
+   width:100%;
+   height:auto;
+   /*background-color:pink;*/
+   color:black;
+}
+  .skill,.portfolio,.contact{
+  	margin: 2%;
+  }
+  .objective,.skill,.portfolio,.contact{
+  	border-radius: 2%;
+  }
+.nav{
+	height: 100px;
+	width:100%;
+	background-color:black;
+	color:white;
+	display:flex;
+	top:0px;
+	position: fixed;
+	justify-content: space-around;
+	text-align: center;
+	vertical-align: middle;
+	flex-wrap: wrap;
+	align-content: center;
+	
+
+}   
+ 
+     .portfolio_name{
+     	 display:flex;
+	     justify-content: space-around;
+         width:50%;
+         height: 100%;
+         font-size: 25px;
+     }
+         .profile_all{
+	         display:flex;
+		     justify-content: space-around;
+		     width:100%;
+        	height:100%;
+         }
+        .profile{
+        	width:80%;
+        	height:100%;
+        	margin:0px;
+        	display:flex;
+		    justify-content: flex-start;
+		    vertical-align: middle;
+		    color:white;
+        }
+        .profile_img{
+           margin:0px;
+           width:20%;
+           height:100%;
+        }
+        .profile_img_in{
+           border-radius: 45.5%;
+           margin:2.5%;
+           width:95%;
+           height:95%;
+        }
+            .pfn_inner{
+            	display:flex;
+            	height: 80%
+           	    width:100;
+           	    margin:5% 0px;
+            }
+           .profile_name_center{
+           	   height: 100%
+           	   width:100;
+           }
+     .nav_all{
+     	 
+         width:50%;
+         height: 100%;
+         padding: 0% 0%;
+     } 
+      .nav_inner{
+      	display:flex;
+	    justify-content: space-around;
+	    align-content: center;
+      	height: 80%
+      	width:80%;
+      	padding: 5%
+      }
+     .nav_item{
+     	width:25%;
+        height: 100%;
+        font-size: 20px;
+     }
+
+.objective{
+	margin:110px 2% 2% 2%;
+	height:500px;
+	width:96%;
+	background-image:url(https://articulate-heroes.s3.amazonaws.com/uploads/rte/izqyharb_How-to-Write-Good-E-Learning-Objectives-for-Your-Online-Course.jpg);
+	background-size: 100% 100%;
+}   
+
+.skill{
+	
+    height:500px;
+    width:96%;
+    background-image: url(http://images.financialexpress.com/2015/11/skills-education-L.jpg);
+    background-size: 100% 100%;
+}
+
+    .skill_all{
+    	 width:100%;
+         height:50%;
+         display:flex;
+         flex-wrap: wrap;
+         justify-content: space-around;
+         align-content: center;
+
+    }
+       .skill_out{
+         width:15%;
+         height:60%;
+       }
+
+          .skill_item{
+             width:100%;
+             height:100%;
+             border-radius: 50%;
+             background-color: white;
+          }
+            .skill_image{
+            	width:96%;
+            	height:96%;
+            	margin:2%;
+            	border-radius: 50%;
+
+            }
+            .skill_image:hover{
+            	box-shadow: 0px 0px 50px green;
+            }
+      
+
+.portfolio{
+	
+    height:600px;
+    width:96%;
+    background-image: url(http://pinnacleifs.com/wp-content/uploads/2015/09/portfolioBG-1.jpg);
+    background-size: 100% 100%;
+    color:white;
+}
+
+
+     .portfolio_in{
+       	height:100%;
+       	width:100%;
+       	display:flex;
+       	flex-wrap:wrap;
+       	justify-content: space-around;
+       }
+       .project_out{
+       	height:36%;
+       	width:35%;
+       	margin: 0px;
+       	padding: 0px;
+       	background-color: pink;
+       	border-radius: 2.5%;
+       }
+       .project{
+       	height:98%;
+       	width:98%;
+       	margin: 1%;
+       	padding: 0px;
+       	background-color: white;
+       	border-radius: 2.5%;
+       }
+
+       .project_out:hover{
+           box-shadow: 0px 0px 50px green;
+       }
+
+.contact{
+	
+    height:600px;
+    width:96%;
+    background-image: url(http://slashsquare.org/wp-content/uploads/2011/12/Contact-Slashsquare.jpg);
+    background-size: 100% 100%;
+    color:black;
+}
+    .social_net{
+    	display: flex;
+    	justify-content: space-around;
+    }
+
+
+    .social{
+    	font-size: 40px;
+    	color:black;
+    	background-color: blue;
+    	border-radius: 50%;
+    	padding: 2%;
+    }
+    .form_contact{
+    	display:flex;
+    	justify-content: space-between;
+    }
+    .form50{
+    	width:50%;
+    	padding: 5%;
+    }
+    .form_style{
+    	width:100%;
+    	height: 50px;
+    	padding: 10px;
+    	margin-bottom: 2%;
+    }
+    .form_style_ta{
+    	width:100%;
+    	height: 150px;
+    	padding: 10px;
+    	margin-bottom: 2%;
+    }
+    .form_style_send{
+    	width:30%;
+    	height: 50px;
+    	padding: 10px;
+    	margin-bottom: 2%;
+    }
+    .form_style,.form_style_ta,.form_style_send{
+    	border-radius: 2%;
+    }
+.footer{
+	
+    height: 70px;
+	width:100%;
+	background-color:black;
+	color:white;
+}
+
+.title{
+	text-align: center;
+	font-size: 40px;
+}
